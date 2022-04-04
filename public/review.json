@@ -1,0 +1,44 @@
+[
+  {
+    "id":1,
+    "name": "J.G. Keely",
+    "body": "There are plenty of fantasy authors who claim to be doing something different with the genre. Ironically, they often write the most predictable books of all, as evidenced by Goodkind and Paolini. Though I'm not sure why they protest so much--predictability is hardly a death sentence in genre fantasy.",
+    "img": "images/1.jpg",
+    "rating": 1
+  },
+  {
+    "id":2,
+    "name": "Shannon",
+    "body": "I really feel the necessity of a bit of personal backstory here, before I start the review. Back in 1996 when this book first came out, and I was about 14 or 16 years old, I saw the hardcover on a sale table for about $5 and couldn't resist a bargain (still can't, though I'm more cautious these days). So I started reading this book with the vague idea that it was a flop, and that may not have helped, but I got through 100 pages of it before feeling so crapped off with it that I shoved it in my cupboard and tried not to think about it. Page 108 to be exact. More on why later.",
+    "img": "images/2.jpg",
+    "rating": 3
+  },
+  {
+    "id":3,
+    "name": "Mark Lawrence",
+    "body": "I rated this in 2010. In 2017 it's time I actually use my words. Here's my long overdue review of A Game of Thrones. I was looking at the current reviews. Here you have a book with a ridiculously high average rating, vast sales, and … the most liked reviews are three 1*s and an unrated comedy piece.",
+    "img": "images/3.jpg",
+    "rating": 4
+  },
+  {
+    "id":4,
+    "name": "Miranda Reads",
+    "body": "Okay - I am SO incredibly late to this party but hey, I made it! And the hype was real! Winter is coming.Lord Eddard Ned Stark lives with his family in a world where the seasons are thrown completely off - summers last decades, and winters are equally long.",
+    "img": "images/4.jpg",
+    "rating": 5
+  },
+  {
+    "id":5,
+    "name": "Emily May",
+    "body": "3 1/2 stars. So in one weekend I finally finished the book I picked up and put down about ten years ago, and watched the final episode of the TV series I have loved for eight years. How odd that the book ended up better than I expected, and the TV show, um... didn't. Warning: I will be talking about the depiction of rape in this review.",
+    "img": "images/6.jpg",
+    "rating": 3.5
+  },
+  {
+    "id":6,
+    "name": "Sean Barrs",
+    "body": "Okay so I read it again. I didn't quite get chance to last year, so I squeezed it in right at the start of this one. Plus, it gives me chance to share this review once more and tell my personal reading journey to any followers I might have picked up since 2015.",
+    "img": "images/5.jpg",
+    "rating": 5
+  }
+]
