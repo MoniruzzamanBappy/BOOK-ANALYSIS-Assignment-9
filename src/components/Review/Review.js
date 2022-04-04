@@ -15,7 +15,7 @@ const Review = ({ review }) => {
         </p>
         <p>Ratings: {rating} Star</p>
       </div>
-      <hr />
+      <hr className="mt-2" />
       <br />
     </div>
   );
