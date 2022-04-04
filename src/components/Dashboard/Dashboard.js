@@ -80,15 +80,16 @@ const Dashboard = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="revenue" stackId="a" fill="#779ad4" />
-          <Bar dataKey="investment" stackId="a" fill="#08cf4e" />
+          <Bar type="monotone" dataKey="revenue" stackId="a" fill="#779ad4" />
+          <Bar type="monotone" dataKey="investment" stackId="a" fill="#08cf4e" />
         </BarChart>
         </div>
         <div>
         <h1 className="font-bold text-center">Pie Chart Invesment vs Revenue</h1>
         <PieChart width={500} height={500}>
-          <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
-          <Pie data={data} dataKey="investment" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+          <Pie data={data}  type="monotone" dataKey="revenue" cx="50%" cy="50%" outerRadius={130} fill="#8884d8" />
+          <Pie data={data}  type="monotone" dataKey="investment" cx="50%" cy="50%" innerRadius={140} outerRadius={180} fill="#82ca9d" label />
+          <Tooltip/>
         </PieChart>
         </div>
       </div>
