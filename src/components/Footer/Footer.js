@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
+  
   return (
     <footer className="text-center footer-container lg:text-left bg-gray-100 text-gray-600">
     <div className="flex justify-center items-center lg:justify-between bg-gray-200 p-6 border-b border-gray-300">
@@ -84,10 +85,10 @@ const Footer = () => {
             Products
           </h6>
           <p className="mb-4">
-            <Link to="#!" className="text-gray-600">Reviews</Link>
+            <Link to="/reviews" className="text-gray-600">Reviews</Link>
           </p>
           <p className="mb-4">
-            <Link to="#!" className="text-gray-600">Dashboard</Link>
+            <Link to="/dashboard" className="text-gray-600">Dashboard</Link>
           </p>
         </div>
         <div className="">
@@ -95,13 +96,13 @@ const Footer = () => {
             Useful links
           </h6>
           <p className="mb-4">
-            <Link to="#!" className="text-gray-600">Home</Link>
+            <Link to="/" className="text-gray-600">Home</Link>
           </p>
           <p className="mb-4">
-            <Link to="#!" className="text-gray-600">Blogs</Link>
+            <Link to="/blogs" className="text-gray-600">Blogs</Link>
           </p>
           <p>
-            <Link to="#!" className="text-gray-600">About Us</Link>
+            <Link to="/aboutus" className="text-gray-600">About Us</Link>
           </p>
         </div>
         <div className="">

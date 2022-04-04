@@ -1,8 +1,11 @@
-import React from "react";
-import useReviews from "./../hooks/useReviews";
+import React, { useEffect } from "react";
 import Review from "./../Review/Review";
+import useReviews from './../../hooks/useReviews';
 
 const Reviews = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [reviews, setReviews] = useReviews();
   return (
     <div className="px-16">

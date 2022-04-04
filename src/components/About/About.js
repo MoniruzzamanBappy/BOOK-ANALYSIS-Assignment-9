@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className='px-16 my-4'>
             <p className='text-justify'>As warden of the north, Lord Eddard Stark counts it a curse when King Robert bestows on him the office of the Hand. His honour weighs him down at court where a true man does what he will, not what he must ... and a dead enemy is a thing of beauty. The old gods have no power in the south, Stark's family is split and there is treachery at court. Worse, a vengeance mad boy has grown to maturity in exile in the Free Cities beyong the sea. Heir of the mad Dragon King deposed by Robert, he claims the Iron Throne. <br /><br />

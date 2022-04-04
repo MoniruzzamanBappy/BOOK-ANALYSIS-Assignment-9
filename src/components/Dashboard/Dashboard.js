@@ -19,6 +19,9 @@ import {
 } from "recharts";
 
 const Dashboard = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [data, setData] = useState([]);
   useEffect(() => {
     axios.get("data.json").then((data) => {

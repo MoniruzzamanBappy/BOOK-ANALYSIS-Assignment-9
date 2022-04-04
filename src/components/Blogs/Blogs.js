@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Blogs = () => {
+  
+  
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className='px-16 my-4'>
             <h1 className='text-2xl font-bold'>Context API</h1>

@@ -1,10 +1,15 @@
 import "./Home.css";
 import Review from "./../Review/Review";
 import { Link } from "react-router-dom";
-import useReviews from "./../hooks/useReviews";
+import { useEffect } from "react";
+import useReviews from './../../hooks/useReviews';
 
 const Home = () => {
   const [reviews, setReviews] = useReviews();
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="px-16">
